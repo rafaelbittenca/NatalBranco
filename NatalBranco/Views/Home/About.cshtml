@@ -1,7 +1,33 @@
-﻿@{
-    ViewBag.Title = "About";
-}
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
-
-<p>Use this area to provide additional information.</p>
+﻿<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h3 class="section-title"><span class="text-blue">What is</span> Natal Branco Lumen</h3>
+            <div class="text-center">
+                <a target="_blank" href="http://obralumen.org.br/web/">
+                    <img src="~/Content/img/obra-lumen.png" />
+                </a>
+            </div>
+        </div>
+        <div class="col-md-6 text-muted text-black">
+            <br />
+            <p>
+                The Natal Branco Lumen is one of the projects carried out by Lumen Social Projects.
+                Its main purpose is to promote the love to others and to sow seeds of solidarity in the society.
+            </p>
+            <p>
+                The project provides an unforgettable Christmas to thousands of needy children who receive
+                from their "Christmas Godparents" Christmas baskets and gifts, besides participating in a full day of fun.
+            </p>
+            <p>
+                Started in 1994, in Fortaleza (BR), the Natal Branco Lumen has reached several other cities in
+                Ceará and Brazil. In 2016, about 6,000 children were benefited by this project.
+            </p>
+            <br />
+            <a href="@Url.Action("Testimonials", "Home")" class="btn btn-lg btn-info" data-action="Create">
+                <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+                See some testimonials
+            </a>
+        </div>
+    </div>
+    <br />
+</div>
