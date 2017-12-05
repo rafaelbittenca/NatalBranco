@@ -1,0 +1,349 @@
+﻿/*
+html, body, header {
+	height: 100%;
+}
+.content {
+	 min-height: 100%;
+}
+
+footer {
+	width: 100%;
+	background-color: #222222;
+	padding: 10px 0;
+	color: #FFF;
+}
+
+.copyright {
+	color: #9f9a9a;
+}
+
+.copyright a {
+	color: #9f9a9a;
+	text-decoration: none;
+}
+
+.copyright a:hover {
+	color: #9f9a9a;
+}
+
+.fa {
+	padding: 5px;
+	font-size: 25px;
+	color: #FFF;
+}
+.fa:hover {
+	color: #1c70d7;
+	text-decoration: none;
+}
+@media (max-width: 900px) {
+	.fa {
+		font-size: 20px;
+		padding: 10px;
+	}
+
+}
+.icon { 
+	width: 80px;
+	height: 70px;
+}
+
+.icon-lumen {
+	width: 80px;
+	height: 60px;
+}
+
+.logo {
+	width: 50px;
+	height: 46px;
+}
+
+*/
+
+body {
+  overflow-x: hidden;
+  /*
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  */
+  background: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)), url("img/snow2.png") no-repeat center center fixed;
+}
+
+
+header {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+header .intro-text {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+header .intro-text .intro-lead-in {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+header .intro-text .intro-heading {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 25px;
+}
+@media (min-width: 768px) {
+  header .intro-text {
+	padding-top: 300px;
+	padding-bottom: 200px;
+  }
+  header .intro-text .intro-lead-in {
+	font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: 40px;
+	line-height: 40px;
+	margin-bottom: 25px;
+  }
+  header .intro-text .intro-heading {
+	font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	font-size: 75px;
+	line-height: 75px;
+	margin-bottom: 50px;
+  }
+}
+
+
+.navbar-brand {
+	padding: 0;
+
+}
+.navbar-custom {
+  background-color: #222222;
+  border-color: transparent;
+}
+
+.navbar-custom .navbar-brand {
+	color: #fff;
+	font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: #1c70d7;
+}
+.navbar-custom .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+.navbar-custom .navbar-toggle {
+  background-color: #1c70d7;
+  border-color: #1c70d7;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #1c70d7;
+}
+.navbar-custom .nav li a {
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  color: white;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color: #1c70d7;
+  outline: none;
+}
+.navbar-custom .navbar-nav > .active > a {
+  border-radius: 0;
+  color: white;
+  background-color: #1c70d7;
+}
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #1c70d7;
+}
+@media (min-width: 768px) {
+  .navbar-custom {
+	background-color: transparent;
+	padding: 10px 0;
+	-webkit-transition: padding 0.3s;
+	-moz-transition: padding 0.3s;
+	transition: padding 0.3s;
+	border: none;
+  }
+  .navbar-custom .navbar-brand {
+	font-size: 2em;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  }
+  .navbar-custom .navbar-nav > .active > a {
+	border-radius: 3px;
+  }
+
+}
+@media (min-width: 768px) {
+  .navbar-custom.affix {
+	background-color: #222222;
+	padding: 10px 0;
+  }
+  .navbar-custom.affix .navbar-brand {
+	font-size: 1.5em;
+  }
+}
+
+
+::-moz-selection {
+  text-shadow: none;
+  background: #1c70d7;
+}
+::selection {
+  text-shadow: none;
+  background: #1c70d7;
+}
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}
+
+.panel-default {
+	border:none;
+}
+
+.panel-title{
+	font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+	font-size: 20px;
+	color:#000;
+}
+
+.panel-default > .panel-heading {
+	border-bottom: none;
+	background-color:#1c70d7;
+}
+.panel-body {
+	background-color: #0d0558;
+	font-size: 14px;
+	color: #fff;
+}
+
+.section-title {
+	color: #111;
+	font-size: 65px;
+	font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+	text-align: center;
+}
+
+#section-special {
+	color: #1c70d7;
+	font-size: 65px;
+	font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+	display: inline;
+}
+
+
+#page-about {
+	width:100%;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin-top: 0;
+	margin-bottom: 0;
+	background-position:center;
+}
+
+#page-testimonials {
+	width:100%;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#page-theproject {
+	background-image:url('img/estrelas_fundo.png');
+	color: #fff;
+	width:100%;
+	background-size:cover;
+	background-attachment:fixed;
+	padding: 20px 0 20px 0;
+}
+#page-theproject > li {
+	margin: 30px;
+}
+
+#page-howtohelp {
+	width:100%;
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+#page-whereweare {
+	background-image:url('img/WhereWeAre.jpg');
+	width:100%;
+	background-size:cover;
+	background-attachment:fixed;
+	padding: 20px 0 20px 0;
+}
+
+.section-title-35 {
+	font-size: 35px;
+}
+
+.section-title-25 {
+	font-size: 25px;
+}
+
+.section-title-18 {
+	font-size: 14px;
+	font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+
+.text-blue {
+    color: #1c70d7;
+}
+
+.text-white {
+	color: #fff;
+}
+
+.text-black {
+	color: #000;
+}
+
+.text-muted {
+	font-size: 18px;
+}
+
+.text-muted text-muted-black {
+	font-size: 2em;
+	color:#000;
+}
+
+
+
+
+.btn-blue {
+	background: #1c70d7;
+	width: 80px;
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.btn-blue:hover {
+	background-color: #1c70d7;
+	color: white;
+}
+
+
+
+

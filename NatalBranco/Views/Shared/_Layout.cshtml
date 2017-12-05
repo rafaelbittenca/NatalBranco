@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,7 +30,6 @@
         @Html.Partial("footer")
     </section>
 
-
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
 
@@ -41,9 +40,4 @@
     @RenderSection("scripts", required: false)
 </body>
 </html>
-<script>
-    $(document).ready(function () {
-        $("script ~ div").css('display', 'none');
-        $("center a").css('display', 'none');
-    });
-</script>
+
