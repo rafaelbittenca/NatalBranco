@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - Natal Branco Lumem</title>
+    <title>Natal Branco</title>
     <link rel="icon" href="~/Content/img/natal.png">
     <!-- Custom Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -19,7 +19,7 @@
 <body>
     <!-- Navigation -->
     @Html.Partial("Navbar")
-    
+
     <!-- RenderBody -->
     <content>
         @RenderBody()
@@ -42,8 +42,8 @@
 </body>
 </html>
 <script>
-$(document).ready(function () {
-            $("script ~ div").css('display', 'none');
-            $("center a").css('display', 'none');
-        });
+    $(document).ready(function () {
+        $("script ~ div").css('display', 'none');
+        $("center a").css('display', 'none');
+    });
 </script>
