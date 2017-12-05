@@ -55,6 +55,11 @@ footer {
 	height: 46px;
 }
 
+#natalbranco-navbar{
+    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+    color:#fff;
+}
+
 .navbar {
     margin-bottom:0;
 }
@@ -156,11 +161,6 @@ footer {
 
 #page-testimonials{
     padding: 40px 0 40px 0;
-}
-
-#natalbranco-navbar{
-    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
-    color:#fff;
 }
 
 #page-howtohelp{
