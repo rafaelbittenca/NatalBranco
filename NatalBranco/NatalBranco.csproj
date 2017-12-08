@@ -226,6 +226,8 @@
     <Content Include="Content\img\fundo3.jpg" />
     <Content Include="Content\img\fundo_h600.jpg" />
     <Content Include="Content\img\fundo_h700.jpg" />
+    <Content Include="Content\img\Image01%401x.jpg" />
+    <Content Include="Content\img\Image01%402x.jpg" />
     <Content Include="Content\img\img16.jpg" />
     <Content Include="Content\img\img19.jpg" />
     <Content Include="Content\img\logo.png" />
