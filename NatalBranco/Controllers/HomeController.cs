@@ -19,7 +19,7 @@ namespace NatalBranco.Controllers
 			try
 			{
 				var email = new Email();
-				var msgBody = string.Format("<p>Hi {0},</p><p>This is a copy for your message.</p><p>Message:</p><p>{1}</p>", obj.ToName, obj.EMailBody);
+				var msgBody = string.Format("<p>Hi {0},</p><p>Natal Branco - This is a copy for your message.</p><p>Message:</p><p>{1}</p>", obj.ToName, obj.EMailBody);
 				if (email.SendEmail(obj.ToEmail, obj.EmailBCC, obj.EmailCC, obj.ToName, obj.EmailSubject, msgBody))
 				{
 					ViewBag.Status = "Email Sent Successfully.";
