@@ -1,5 +1,5 @@
 ﻿html, body, header {
-	height: 100%;
+    height: 100%;
 }
 
 body {
@@ -8,51 +8,51 @@ body {
 }
 
 .content {
-	 min-height: 100%;
+     min-height: 100%;
 }
 
 footer {
-	width: 100%;
-	background-color: #222222;
-	padding: 10px 0;
-	color: #FFF;
+    width: 100%;
+    background-color: #222222;
+    padding: 10px 0;
+    color: #FFF;
 }
 
 .fa {
-	padding: 5px;
-	font-size: 25px;
-	color: #FFF;
+    padding: 5px;
+    font-size: 25px;
+    color: #FFF;
 }
 
 .fa:hover {
-	color: #1C70D7;
-	text-decoration: none;
+    color: #1C70D7;
+    text-decoration: none;
 }
 
 @media (max-width: 900px) {
-	.fa {
-		font-size: 20px;
-		padding: 10px;
-	}
+    .fa {
+        font-size: 20px;
+        padding: 10px;
+    }
 
 }
 
 .copyright {
-	color: #9f9a9a;
+    color: #9f9a9a;
 }
 
 
 .copyright a {
-	color: #9f9a9a;
-	text-decoration: none;
+    color: #9f9a9a;
+    text-decoration: none;
 }
 
 .copyright a:hover {
-	color: #9f9a9a;
+    color: #9f9a9a;
 }
 
 .logo-navbar {
-	height: 46px;
+    height: 46px;
 }
 
 #natalbranco-navbar{
@@ -123,10 +123,10 @@ footer {
 }
 
 .section-title {
-	color: #111;
-	font-size: 65px;
-	font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
-	text-align: center;
+    color: #111;
+    font-size: 65px;
+    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+    text-align: center;
 }
 .text-blue {
     color:#1C70D7;
@@ -145,21 +145,21 @@ footer {
 }
 
 .icon-serfeliz { 
-	width: 80px;
-	height: 70px;
+    width: 80px;
+    height: 70px;
 }
 
 .icon-lumen {
-	width: 80px;
-	height: 60px;
+    width: 80px;
+    height: 60px;
 }
 
 
 #page-whereweare{
-	background-image:url('img/WhereWeAre.jpg');
-	width:100%;
-	background-size:cover;
-	background-attachment:fixed;
+    background-image:url('img/WhereWeAre.jpg');
+    width:100%;
+    background-size:cover;
+    background-attachment:fixed;
     padding: 80px 0 80px 0;
 }
 
@@ -171,21 +171,21 @@ footer {
     padding: 40px 0 40px 0;
 }
 #page-contact {
-    padding: 80px 0 80px 0;
+    padding: 40px 0 20px 0;
 }
 #page-about {
-	width:100%;
-	margin-top: 0;
-	margin-bottom: 0;
-	background-position:center;
-    padding: 120px 0 120px 0;
+    width:100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-position:center;
+    padding: 80px 0 80px 0;
 }
 
 #page-theproject {
-	background-image:url('img/estrelas_fundo.png');
-	color: #fff;
-	width:100%;
-	background-size:cover;
-	background-attachment:fixed;
-	padding: 120px 0 120px 0;
+    background-image:url('img/estrelas_fundo.png');
+    color: #fff;
+    width:100%;
+    background-size:cover;
+    background-attachment:fixed;
+    padding: 120px 0 120px 0;
 }
